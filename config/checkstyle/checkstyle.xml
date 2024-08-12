@@ -1,0 +1,15 @@
+<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+    <!-- Non-TreeWalker Checks -->
+    <module name="LineLength">
+        <property name="max" value="520"/>
+    </module>
+
+    <!-- TreeWalker Checks -->
+    <module name="TreeWalker">
+        <module name="WhitespaceAround"/>
+        <module name="WhitespaceAfter"/>
+    </module>
+</module>
