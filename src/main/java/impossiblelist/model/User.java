@@ -14,4 +14,5 @@ public class User {
     private String lastName;
     private String bio;
     private String profilePicture;
+    private String filterCriteria;
 }
